@@ -19,4 +19,46 @@
 
 .container-logo {
     padding-left: 40px;
+    background-color: white;
+    margin-bottom: 60px;
+}
+
+body {
+    background-color: rgb(223, 220, 220);
+}
+
+.lists {
+    height: 800px;
+    width: 1200px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 1%;
+}
+
+#task {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(54, 166, 236);
+    border-radius: 10%;
+    margin-left: 10%;
+}
+
+#section {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10%;
+    margin-left: 1%;
+}
+
+#add-task-color {
+    color: white;
+}
+
+#add-section-color {
+    color: grey;
+}
+
+button {
+    margin-top: 30px;
 }
