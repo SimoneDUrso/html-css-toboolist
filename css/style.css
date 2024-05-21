@@ -83,7 +83,7 @@ button {
     margin: 0 auto;
     background-color: white;
     padding-left: 80px;
-    padding-top: 50px;
+    padding-top: 30px;
     margin-bottom: 10px;
     border-bottom-left-radius: 2%;
     border-bottom-right-radius: 2%;
@@ -127,15 +127,15 @@ h2 {
 .editorial {
     color: white;
     background-color: rgb(54, 166, 236);
-    border-radius: 10%;
+    border-radius: 20%;
     padding: 8px;
     font-size: 15px;
 }
 
 .q1-goals {
     color: white;
-    background-color: rgb(177, 25, 177);
-    border-radius: 10%;
+    background-color: rgb(247, 121, 247);
+    border-radius: 20%;
     padding: 8px;
     font-size: 15px;
 }
@@ -143,7 +143,7 @@ h2 {
 .recruiting {
     color: white;
     background-color: rgb(55, 172, 152);
-    border-radius: 10%;
+    border-radius: 20%;
     padding: 8px;
     font-size: 15px;
 }
@@ -151,11 +151,28 @@ h2 {
 .mobile {
     color: white;
     background-color: rgb(255, 174, 0);
-    border-radius: 10%;
+    border-radius: 20%;
     padding: 8px;
     font-size: 15px;
 }
 
+.website {
+    color: white;
+    background-color: rgb(153, 6, 128);
+    border-radius: 20%;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.sales {
+    color: white;
+    background-color: rgb(112, 143, 41);
+    border-radius: 40%;
+    padding: 8px;
+    font-size: 15px;
+}
+
+/* Fine sezione per le caratteristiche delle etichette */
 .distance-lists {
-    margin-top: 10px;
+    margin-top: 34px;
 }
