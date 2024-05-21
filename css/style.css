@@ -92,20 +92,31 @@ button {
 }
 
 li {
-    display: inline;
     font-size: x-large;
     padding-right: 1%;
     margin-bottom: 20px;
 
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* Sezione per le caratteristiche delle entities */
-.entities {
+.entities-check {
     border: 1px solid green;
     border-radius: 50%;
     margin-left: 5px;
     padding: 4px;
     color: green;
+}
+
+.entities-cross {
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    margin-left: 5px;
+    padding: 4px;
+    color: rgb(255, 0, 0);
 }
 
 h2 {
@@ -119,9 +130,31 @@ h2 {
     border-radius: 10%;
     padding: 8px;
     font-size: 15px;
-
 }
 
+.q1-goals {
+    color: white;
+    background-color: rgb(177, 25, 177);
+    border-radius: 10%;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.recruiting {
+    color: white;
+    background-color: rgb(55, 172, 152);
+    border-radius: 10%;
+    padding: 8px;
+    font-size: 15px;
+}
+
+.mobile {
+    color: white;
+    background-color: rgb(255, 174, 0);
+    border-radius: 10%;
+    padding: 8px;
+    font-size: 15px;
+}
 
 .distance-lists {
     margin-top: 10px;
