@@ -76,12 +76,14 @@ button {
     margin-bottom: 10px;
 }
 
+/* Secondo DIV per la gestione delle liste */
 .lists {
     height: 720px;
     width: 1200px;
     margin: 0 auto;
     background-color: white;
     padding-left: 80px;
+    padding-top: 50px;
     margin-bottom: 10px;
     border-bottom-left-radius: 2%;
     border-bottom-right-radius: 2%;
@@ -91,12 +93,29 @@ button {
 
 li {
     display: inline-block;
+    font-size: x-large;
 
 }
 
-/* DA MODIFICARE */
+/* Sezione per le caratteristiche delle entities */
 .entities {
-    background-color: rgba(0, 0, 0, 0);
-    border: 1px solid black;
+    border: 1px solid green;
     border-radius: 50%;
+    margin-left: 5px;
+    padding: 4px;
+    color: green;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+/* Sezione per le caratteristiche delle etichette */
+.etichetta-blu {
+    color: white;
+    background-color: rgb(54, 166, 236);
+    border-radius: 30%;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 5px;
 }
