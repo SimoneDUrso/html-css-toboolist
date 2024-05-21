@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.align-middle {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo {
+    width: 80px;
+}
+
+.nome-logo {
+    font-size: 70px
+}
+
+.container-logo {
+    padding-left: 40px;
+}
